@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './accodin/accodin1'
+// import Main from './accodin/accodin1'
 // import Mount from './spinning/spinning'
 // import Updating from './lifecycle/updating/updating'
 // import FuncLifeCycle from './functioncomponent/index'
 // import Calculator from './calculator/index'
+import Row from './table/table1'
 
 function App() {
   return (
     <>
-    <Main/>
+    {/* <Main/> */}
+    <Row/>
     {/* <Calculator/> */}
     {/* <FuncLifeCycle/> */}
     {/* <Mount/> */}

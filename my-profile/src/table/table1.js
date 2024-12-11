@@ -207,7 +207,7 @@ const data = [
     rating: { rate: 3.6, count: 145 },
   },
 ];
-function row() {
+function Row() {
   return (
     <div>
       {data.map((a, b) => {
@@ -216,4 +216,4 @@ function row() {
     </div>
   );
 }
-export default row;
+export default Row;
