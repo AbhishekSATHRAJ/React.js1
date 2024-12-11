@@ -1,0 +1,41 @@
+/* Footer Bar Styles */
+.footer-bar {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer-bar .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-bar .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-bar .social-links a:hover {
+    color: #ff6ec7; /* Hover color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-bar .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-bar .social-links {
+        margin-top: 10px;
+    }
+}

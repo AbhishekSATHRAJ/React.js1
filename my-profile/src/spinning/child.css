@@ -1,0 +1,16 @@
+/* Example of additional custom CSS */
+.card-custom-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-custom-desc {
+    font-size: 0.9rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+.card-custom-button {
+    margin-top: 15px;
+}
