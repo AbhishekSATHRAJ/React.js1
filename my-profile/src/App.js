@@ -8,7 +8,8 @@ import './App.css';
 // import Row from './table/table1'
 // import Parent from './propsdrilling/parent';
 // import FuncLifeCycle from './functioncomponent/index';
-import Todo from './todo/index';
+// import Todo from './todo/index';
+import Mount from './spinning/spinning';
 function App() {
   return (
     <>
@@ -16,7 +17,8 @@ function App() {
     {/* <Row/> */}
     {/* <Parent/>
     <FuncLifeCycle/> */}
-    <Todo/>
+    {/* <Todo/> */}
+    <Mount/>
     {/* <Calculator/> */}
     {/* <FuncLifeCycle/> */}
     {/* <Mount/> */}
