@@ -5,13 +5,16 @@ import './App.css';
 // import Updating from './lifecycle/updating/updating'
 // import FuncLifeCycle from './functioncomponent/index'
 // import Calculator from './calculator/index'
-import Row from './table/table1'
-
+// import Row from './table/table1'
+import Parent from './propsdrilling/parent';
+import FuncLifeCycle from './functioncomponent/index';
 function App() {
   return (
     <>
     {/* <Main/> */}
-    <Row/>
+    {/* <Row/> */}
+    <Parent/>
+    <FuncLifeCycle/>
     {/* <Calculator/> */}
     {/* <FuncLifeCycle/> */}
     {/* <Mount/> */}
