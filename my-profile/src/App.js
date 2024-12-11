@@ -6,15 +6,17 @@ import './App.css';
 // import FuncLifeCycle from './functioncomponent/index'
 // import Calculator from './calculator/index'
 // import Row from './table/table1'
-import Parent from './propsdrilling/parent';
-import FuncLifeCycle from './functioncomponent/index';
+// import Parent from './propsdrilling/parent';
+// import FuncLifeCycle from './functioncomponent/index';
+import Todo from './todo/index';
 function App() {
   return (
     <>
     {/* <Main/> */}
     {/* <Row/> */}
-    <Parent/>
-    <FuncLifeCycle/>
+    {/* <Parent/>
+    <FuncLifeCycle/> */}
+    <Todo/>
     {/* <Calculator/> */}
     {/* <FuncLifeCycle/> */}
     {/* <Mount/> */}
