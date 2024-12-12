@@ -1,6 +1,6 @@
 import React from "react";
 import './profolio.css'
-function profolio(){
+function Profolio(){
     return(
      <>
        {/* <!-- Navbar --> */}
@@ -167,4 +167,4 @@ function profolio(){
      </>
     )
 }
-export default profolio;
+export default Profolio;

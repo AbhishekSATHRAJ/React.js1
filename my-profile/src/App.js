@@ -7,24 +7,27 @@ import './App.css';
 // import Calculator from './calculator/index'
 // import Row from './table/table1'
 // import Parent from './propsdrilling/parent';
-import FuncLifeCycle from './functioncomponent/index';
+// import FuncLifeCycle from './functioncomponent/index';
+
 // import Todo from './todo/index';
 // import FormSubmission from './form/index'
 // import Mount from './spinning/spinning';
 // import Numbercheck from './even&odd/index'
-import Updating from './lifecycle/updating/updating'
+// import Updating from './lifecycle/updating/updating'
+import Profolio from './profolio'
 function App() {
   return (
     <>
     {/* <Main/> */}
     {/* <Row/> */}
     {/* <Parent/> */}
-    <FuncLifeCycle/>
+    {/* <FuncLifeCycle/> */}
     {/* <Todo/> */}
     {/* <Numbercheck/>
     <FormSubmission/>
     <Mount/> */}
-    <Updating/>
+    {/* <Updating/> */}
+    <Profolio/>
     {/* <Calculator/> */}
     {/* <FuncLifeCycle/> */}
     {/* <Mount/> */}
