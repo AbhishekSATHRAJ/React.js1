@@ -9,9 +9,10 @@ import './App.css';
 // import Parent from './propsdrilling/parent';
 // import FuncLifeCycle from './functioncomponent/index';
 // import Todo from './todo/index';
-import FormSubmission from './form/index'
-import Mount from './spinning/spinning';
-import Numbercheck from './even&odd/index'
+// import FormSubmission from './form/index'
+// import Mount from './spinning/spinning';
+// import Numbercheck from './even&odd/index'
+import Updating from './lifecycle/updating/updating'
 function App() {
   return (
     <>
@@ -20,9 +21,10 @@ function App() {
     {/* <Parent/>
     <FuncLifeCycle/> */}
     {/* <Todo/> */}
-    <Numbercheck/>
+    {/* <Numbercheck/>
     <FormSubmission/>
-    <Mount/>
+    <Mount/> */}
+    <Updating/>
     {/* <Calculator/> */}
     {/* <FuncLifeCycle/> */}
     {/* <Mount/> */}
